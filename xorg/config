@@ -1,0 +1,16 @@
+#Set display resolution, disposition and composition
+
+Section "Screen"
+    Identifier     "Screen0"
+    Device         "Device0"
+    Monitor        "Monitor0"
+    DefaultDepth    24
+    Option         "Stereo" "0"
+    Option         "nvidiaXineramaInfoOrder" "DFP-5"
+    Option         "metamodes" "DVI-I-0: 1440x900_60 +0+180 {ForceCompositionPipeline=On, ForceFullCompo>
+    Option         "SLI" "Off"
+    Option         "MultiGPU" "Off"
+    Option         "BaseMosaic" "off"
+    SubSection     "Display"
+        Depth       24
+    EndSubSection
