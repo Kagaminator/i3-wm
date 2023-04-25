@@ -229,4 +229,4 @@ exec --no-startup-id sleep 2 && nitrogen --restore
 #Open Pavucontrol
 bindsym $mod+m exec pavucontrol
 
-#TEST
+
